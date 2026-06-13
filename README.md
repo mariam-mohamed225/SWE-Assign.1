@@ -222,19 +222,6 @@ To test the application:
 
 ---
 
-## Troubleshooting
-
-| Issue | Solution |
-|-------|----------|
-| **Command not found: `java`** | Ensure JDK is installed and added to system PATH |
-| **Compilation error: Cannot find symbol** | Verify both `.java` files are in the same directory |
-| **PIN keeps failing** | Default PIN is `1228` (check line 7 in BankAccount.java) |
-| **Transaction history shows only opening balance** | This is normal for a new session; history is in-memory only |
-| **Wrong output encoding in terminal** | Try running with: `java ATM -Dfile.encoding=UTF-8` |
-| **Scanner not closing** | The Scanner is intentionally kept open for multiple operations |
-
----
-
 ## Future Improvements
 
 ### Roadmap
@@ -259,27 +246,8 @@ To test the application:
 
 ---
 
-## License
-
-This project is provided as-is for educational and assignment purposes. No specific license is currently applied. For licensing inquiries, please contact the repository owner.
-
----
-
-## Author
-
-**Mariam Mohamed**
-- GitHub: [@mariam-mohamed225](https://github.com/mariam-mohamed225)
-- Repository: [SWE-Assign.1](https://github.com/mariam-mohamed225/SWE-Assign.1)
-
----
-
 ## Additional Resources
 
 - [Java Documentation](https://docs.oracle.com/javase/8/docs/)
 - [Scanner Class Reference](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
 - [ArrayList Documentation](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
-
----
-
-**Last Updated:** June 13, 2026  
-**Version:** 1.0.0
